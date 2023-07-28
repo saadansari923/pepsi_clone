@@ -1,0 +1,187 @@
+@font-face {
+    font-family: PoppinsMedium;
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+* {
+    margin: 0;
+    font-family:PoppinsMedium;
+    border: border-box;
+}
+
+
+
+/* nav-bar section  */
+
+
+
+.navbar {
+    height: 100px;
+    background-color: #0065c3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+    width: 100%;
+    z-index: 12;
+}
+
+.nav-logo {
+    height: 65px;
+    width: 65px;
+    margin-left: 15px;
+}
+
+.logo {
+    background-image: url(pepsi-logo-94D7DEF922-seeklogo.com.png);
+    background-size: cover;
+    height: 65px;
+    width: 100%;
+}
+
+.nav-icon {
+    height: 10px;
+    width: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.nav-products {
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: flex;
+    padding-left: 15px;
+}
+
+p {
+    margin-left: 50px;
+    padding: 0%;
+    cursor: pointer;
+}
+
+
+a {
+    margin-left: 40px;
+    padding: 0%;
+    cursor: pointer;
+}
+
+.nav-buy {
+    padding-left: 150px;
+}
+
+
+
+/* hero section  */
+
+
+
+.hero-pic1 {
+    background-image: url(324508469_5933180036724787_3583576326646626993_n.jpg);
+    height: 500px;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.hero-pic2 {
+    background-image: url(359816993_671136075049709_2199186840115864372_n.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.hero-pic3 {
+    background-image: url(347557062_791186652402584_8262372078840431944_n.png);
+    height: 500px;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: #0065c3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+/* footer section */
+
+
+
+footer {
+    height: 288px;
+    width: 100%;
+    background-color: #0065c3;
+    display: flex;
+    align-items: center;
+}
+
+
+.foot-panel1 {
+    height: 100px;
+    width: 100px;
+    padding-top: 100px;
+    padding: 0%;
+}
+
+
+.foot-logo {
+    background-image: url(pepsi-logo-94D7DEF922-seeklogo.com.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-left: 40px;
+}
+
+
+.foot-panel2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+ul a {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+button {
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 6px 30px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: white;
+    color: #0065c3;
+}
+
+.foot-icon {
+    color: white;
+    font-size: 35px;
+    padding-left: 110px;
+    cursor: pointer;
+}
